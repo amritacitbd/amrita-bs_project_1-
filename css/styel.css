@@ -422,7 +422,10 @@ banner css end
 =================== */
 
 
-
+#about{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 
 
 #about .about-image .about-overlay{
@@ -457,7 +460,6 @@ banner css end
 /* ===============
 about css end
 =================== */
-
 
 
 
@@ -511,7 +513,9 @@ about css end
 gallery css ends
 =================== */
 
-
+#team {
+    margin-top: 80px;
+}
 
 #team .team-item{
     margin-top: 65px;
@@ -528,14 +532,6 @@ gallery css ends
     -moz-transform: translatey(-40px);
     -ms-transform: translatey(-40px);
     -o-transform: translatey(-40px);
-}
-
-#team .team-item .card{
-    transition: all linear 0.5s;
-    -webkit-transition: all linear 0.5s;
-    -moz-transition: all linear 0.5s;
-    -ms-transition: all linear 0.5s;
-    -o-transition: all linear 0.5s;
 }
 
 #team .team-item:hover .card{
@@ -620,4 +616,99 @@ gallery css ends
 /* ===============
 team css ends
 =================== */
+
+
+#testimonial{
+    margin-top: 35px;
+    margin-bottom: 80px;
+}
+
+#testimonial .testimonial-bg{
+    background: url(../images/testimonial-bg.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+    margin-top: 25px;
+    padding-bottom: 80px;
+}
+
+#testimonial .testimonial-bg::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--over8);
+    inset: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+#testimonial .testimonial-bg .testimonial-person-details i{
+    color: var(--brand);
+    font-size: 14px;
+}
+
+#testimonial .testimonial-bg .testimonial-item{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+#testimonial .testimonial-bg .testimonial-item:last-of-type{
+    margin-top: 0px;
+}
+
+#testimonial .testimonial-bg .testimonial-item .testimonial-person-text p{
+    margin-right: 15px;
+}
+
+
+#testimonial .slick-dots{
+    display: flex;
+    position: absolute;
+    left: 48%;
+    transform: translateX(-50%);
+    bottom: -63px;
+    padding-left: 0;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+#testimonial .slick-dots li {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#testimonial .slick-dots li:last-child{
+    margin-right: 0;
+}
+
+#testimonial .slick-dots li.slick-active{
+    background: var(--brand);
+    border-color: var(--brand);
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+#testimonial .slick-dots li button{
+    font-size: 0;
+    outline: none;
+    border: none;
+    
+}
+/* ===============
+testimonial css ends
+=================== */
+
 

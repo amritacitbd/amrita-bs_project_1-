@@ -8,4 +8,11 @@ $(document).ready(function(){
     // venobox
         $('.venobox').venobox(); 
 
+    // testimonial-slider
+    $('.testimonial-slider').slick({
+        arrows:false,
+        slidesToShow:'2',
+        dots:true,
+    });
+
 });
