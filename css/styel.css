@@ -712,3 +712,96 @@ testimonial css ends
 =================== */
 
 
+
+#membership{
+    margin-bottom: 80px;
+}
+#membership .membership-item{
+    margin-top: 25px;
+}
+
+#membership .membership-item .membership-price .member-overlay{
+    background: var(--over8);
+
+}
+
+#membership .membership-item .membership-head{
+    background: var(--bg1);
+}
+
+#membership .membership-item .membership-head h4{
+    line-height: 55px;
+    color: var(--hcolor);
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+}
+
+#membership .membership-item:hover .membership-head h4{
+    background: var(--brand);
+    color: #fff;
+}
+
+#membership .membership-item .membership-features{
+    background: var(--mcolor);
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+}
+
+#membership .membership-item .membership-features ul li{
+    color: var(--hcolor2);
+    margin-bottom: 22px;
+}
+
+#membership .membership-item .membership-features ul li:last-child{
+    margin-bottom: 0;
+}
+
+#membership .membership-item .member-btn a{
+    background: var(--bg1);
+    line-height: 34px;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+}
+
+#membership .membership-item:hover .member-btn a{
+    background: var(--brand);
+    color: #fff;
+}
+/* ===============
+member css ends
+=================== */
+
+
+#counter{
+    margin-bottom: 80px;
+}
+
+#counter .counter-bg{
+    background: url(../images/count-bg.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+
+#counter .counter-bg::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--over8);
+    position: absolute;
+    inset: 0; 
+    z-index: -1;
+}
+/* ===============
+counter css ends
+=================== */
+
+

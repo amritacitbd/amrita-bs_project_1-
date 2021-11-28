@@ -13,6 +13,13 @@ $(document).ready(function(){
         arrows:false,
         slidesToShow:'2',
         dots:true,
+        autoplay:true,
+    });
+
+    // counter up
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
     });
 
 });
